@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.brightbuds">
+
+    <application>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BrightBuds">
+        </activity>
+        <activity
+            android:name=".MatchLetterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity
+            android:name=".CongratulationsActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
