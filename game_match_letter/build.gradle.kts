@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.library")
+    id("com.android.application")
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     id("kotlin-kapt")
@@ -12,8 +12,11 @@ android {
     }
 
     defaultConfig {
+        applicationId = "com.example.brightbuds"
         minSdk = 21
         targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
