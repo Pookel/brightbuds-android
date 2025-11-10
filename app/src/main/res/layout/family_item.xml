@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/card_background">
+
+    <ImageView
+        android:id="@+id/familyImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/familymodule_icon"
+        android:background="@drawable/image_border" />
+
+    <TextView
+        android:id="@+id/familyRelation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mum"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/familyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sarah"
+        android:textSize="14sp"
+        android:textColor="#555555" />
+
+</LinearLayout>

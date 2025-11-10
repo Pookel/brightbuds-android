@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Example: Custom button style -->
+    <style name="CustomButton" parent="Widget.Material3.Button">
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/purple_500</item>
+    </style>
+
+</resources>

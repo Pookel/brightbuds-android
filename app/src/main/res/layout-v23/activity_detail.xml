@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    android:padding="24dp"
+    tools:context=".DetailActivity">
+
+    <!-- 🏠 Home Button (Top-left, Teal) -->
+    <ImageButton
+        android:id="@+id/buttonHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_home"
+        android:color="@color/teal_200"
+        android:contentDescription="Home Button" />
+
+    <!-- 🖼Image in center -->
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Family Member Photo"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- Name below image -->
+    <TextView
+        android:id="@+id/detailNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mom"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_below="@id/detailImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:shadowColor="#55000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <!-- Relationship text -->
+    <TextView
+        android:id="@+id/detailRelationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mother"
+        android:textSize="22sp"
+        android:textColor="#eeeeee"
+        android:layout_below="@id/detailNameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <!-- Arrows under image -->
+    <LinearLayout
+        android:id="@+id/navigationButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailRelationText"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_media_previous"
+            android:contentDescription="Previous" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_media_next"
+            android:contentDescription="Next"
+            android:layout_marginStart="24dp" />
+    </LinearLayout>
+
+    <!-- Close button at bottom -->
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="18sp"
+        android:backgroundTint="#FFB6C1"
+        android:textColor="#fff"
+        android:layout_below="@id/navigationButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/starView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_star"
+        android:color="@color/accent"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:contentDescription="Star Animation" />
+
+</RelativeLayout>
+
+
+
+

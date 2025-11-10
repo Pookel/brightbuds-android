@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/detailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details about the person"
+        android:textSize="22sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#333" />
+
+    <!-- 🔸 Add this button -->
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="#FFB6C1"
+        android:textColor="#fff" />
+
+    <!-- 🏠 Home Button (Top-left, Teal) -->
+    <ImageButton
+        android:id="@+id/buttonHome"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_home"
+        android:color="@color/teal_200"
+        android:contentDescription="Home Button" />
+
+</LinearLayout>
