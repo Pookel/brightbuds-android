@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Container that hosts the game Fragment.
+ The Fragment class is specified via android:name.
+-->
+<androidx.fragment.app.FragmentContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container_view"
+    android:name="com.example.brightbuds_app.ui.games.FeedTheMonsterFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

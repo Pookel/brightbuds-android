@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Padding sizes -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="star_icon_size">18dp</dimen>
+
+    <!-- Tweak to taste; 84–96dp usually looks great on phones -->
+    <dimen name="tile_size">88dp</dimen>
+    <dimen name="tile_margin">8dp</dimen>
+    <dimen name="tile_choice_size">90dp</dimen>
+    <dimen name="tile_size_word_builder">96dp</dimen>
+
+</resources>
